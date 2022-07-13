@@ -1,0 +1,22 @@
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1230px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 55px;
+    margin-bottom: 90px;
+    .main-nav { 
+        a {
+            margin-left: 60px;
+            &:first-child {
+                margin-left: 0;
+            }
+            &.link-active {
+                color: rgba(229, 156, 156, 1);
+                text-decoration: underline;
+            }
+        }
+    }
+}
