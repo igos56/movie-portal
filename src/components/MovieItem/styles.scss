@@ -1,0 +1,35 @@
+.item-wrapper {
+    width: 180px;
+    height: 381px;
+    margin-right: 100px;
+    color: black;
+    padding-bottom: 22px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    &:nth-child(4n) {
+        margin-right: 0;
+    }
+    img {
+        border-radius: 20px;
+        width: 180px;
+        height: 260px;
+    }
+    .item-title {
+        font-size: 15px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+    .year-country {
+        font-size: 13px;
+        font-weight: 400;
+        color: #333333;
+        margin-bottom: 10px;
+    }
+    .genre {
+        font-size: 13px;
+        font-weight: 400;
+        color: #333333;
+    }
+}

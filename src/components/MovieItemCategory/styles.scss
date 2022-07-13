@@ -1,0 +1,29 @@
+.item-category-wrapper {
+    width: 509px;
+    height: 229px;
+    display: flex;
+    margin-bottom: 25px;
+    margin-right: 32px;
+    &:nth-child(2n) {
+        margin-right: 0;
+    }
+    img {
+        width: 185px;
+        height: 229px;
+        margin-right: 43px;
+        border-radius: 20px;
+    }
+    .info-wrapper {
+        color: black;
+        .item-title {
+            font-size: 20px;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-bottom: 57px;
+        }
+        .genre {
+            font-size: 16px;
+            font-weight: 400;
+        }
+    }
+}

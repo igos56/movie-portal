@@ -1,0 +1,26 @@
+.footer-wrapper {
+    background-color: #3a3a3a;
+    padding-top: 49px;
+    padding-bottom: 48px;
+    .footer-center-wrapper {
+        width: 1230px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .author {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            .made-by {
+                margin-bottom: 5px;
+                font-size: 18px;
+                font-weight: 700;
+            }
+            .author-name {
+                font-weight: 700;
+            }
+        }
+    }
+}
